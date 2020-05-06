@@ -1,0 +1,1714 @@
+Creating task # 0
+Creating task # 1
+Creating task # 2
+Create task FAILED: Number of available threads exceeded the limit..
+.............
+............. STARTING SCHEDULING
+.............
+
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 394
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 439
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 237
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 398
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+
+
+Sending message from Task 0 to Task 1
+
+
+Task 0 is trying to obtain the semaphore (Resource1)
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 0
+Sema-Queue: ---- EMPTY ----
+----------------------------
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 997014
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 43
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 87
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 127
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 155
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 183
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 210
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 241
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 268
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 295
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 326
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 353
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 68
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 4132
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 502046
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 1152
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 443
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 202
+---- N O   Y I E L D -----
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 306
+---- N O   Y I E L D -----
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 413
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Task 1 is trying to obtain the semaphore (Resource1)
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 0
+Sema-Queue: 1 | 
+----------------------------
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 254
+---- N O   Y I E L D -----
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 0
+Sema-Queue: 1 | 
+----------------------------
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 3089243
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 547
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 497
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 2
+Task 2 is trying to obtain the semaphore (Resource1)
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 0
+Sema-Queue: 2 | 1 | 
+----------------------------
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 1000087
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: BLOCKED
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 863
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 0
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 0
+Sema-Queue: 2 | 1 | 
+----------------------------
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: BLOCKED
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 2001421
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: BLOCKED
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 3000499
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 0
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 1016533
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: BLOCKED
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 1323747
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 0
+START OF MY UP-----------------------
+
+Task 0 is trying to obtain the semaphore (Resource1)
+TaskID : 0, LuckyID : 0
+UnBlock : 2 and release from the queue.
+Luck Task = 2
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 2
+Sema-Queue: 1 | 
+----------------------------
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 677089
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 90
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 145
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 215
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 271
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 334
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 661828
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 2
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 2
+Sema-Queue: 1 | 
+----------------------------
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 338816
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 1322008
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 678752
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 128713
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 1276403
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: BLOCKED
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 356
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 2
+Task 2 is trying to obtain the semaphore (Resource1)
+TaskID : 2, LuckyID : 2
+UnBlock : 1 and release from the queue.
+Luck Task = 1
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 1
+Sema-Queue: ---- EMPTY ----
+----------------------------
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 63580
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 937408
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 127
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 184
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 238
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 310
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 364
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 41
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 82
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 109
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 135
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 161
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 193
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 220
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 246
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 272
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 308
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 337
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+-------Semaphore DUMP-------
+Sema_Value: 0
+Sema_Name : resource1
+Obtained by Task-ID: 1
+Sema-Queue: ---- EMPTY ----
+----------------------------
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 935650
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 52
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 80
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 108
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 139
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 169
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 197
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 224
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 255
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 285
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 314
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 341
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 45
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 73
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 100
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 128
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 160
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 187
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 214
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 242
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 269
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 297
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 324
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 351
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 228833
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 804
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 570
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 156
+---- N O   Y I E L D -----
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 248
+---- N O   Y I E L D -----
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 346
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Task 1 is trying to obtain the semaphore (Resource1)
+TaskID : 1, LuckyID : 1
+-------Semaphore DUMP-------
+Sema_Value: 1
+Sema_Name : resource1
+Obtained by Task-ID: -1
+Sema-Queue: ---- EMPTY ----
+----------------------------
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 771365
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 71
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 106
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 134
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 161
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 189
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 216
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 243
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 270
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 302
+---- N O   Y I E L D -----
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 355
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 168
+---- N O   Y I E L D -----
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 286
+---- N O   Y I E L D -----
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 398
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 286293
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+Thread Num# :2 Pthread_self() #: 140001918695168
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: RUNNING <-- CURRENT PROCESS
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 2 is trying to yield.
+Current Quantum : 333
+Elapsed time: 950
+yielding....(Switching from task #2 to next ready task).
+Started Running task # 0
+Thread Num# :0 Pthread_self() #: 140001935480576
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: RUNNING <-- CURRENT PROCESS
+ task id: 1 process id140001927087872 task state: READY
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 0 is trying to yield.
+Current Quantum : 333
+Elapsed time: 520
+yielding....(Switching from task #0 to next ready task).
+Started Running task # 1
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 126
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 191
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 255
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 324
+---- N O   Y I E L D -----
+Thread Num# :1 Pthread_self() #: 140001927087872
+---------------------- PROCESS TABLE ----------------------
+Quantum = 333
+ task id: 0 process id140001935480576 task state: READY
+ task id: 1 process id140001927087872 task state: RUNNING <-- CURRENT PROCESS
+ task id: 2 process id140001918695168 task state: READY
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+Current Task # 1 is trying to yield.
+Current Quantum : 333
+Elapsed time: 388
+yielding....(Switching from task #1 to next ready task).
+Started Running task # 2
+---- MAILBOX Thread # 0 -----
+Not found!
+--------------------------------------------------
+--------------------------------------------------
+---- MAILBOX Thread # 1 -----
+
+
+----MESSAGE---
+Source ID: 0
+Dest ID: 1
+Arrival Time: Sun Apr  5 12:17:31 2020
+Message Type: TEXT
+Content: Testing my main...
+----END MESSAGE---
+
+
+--------------------------------------------------
+--------------------------------------------------
+---- MAILBOX Thread # 2 -----
+Not found!
+--------------------------------------------------
+--------------------------------------------------
